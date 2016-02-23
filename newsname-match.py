@@ -15,7 +15,7 @@ import os
 #list of main candidates
 candidates = ["Woodrow Wilson","Charles E. Hughes"]
 
-path = '/dates/19160101'
+path = './dates/19160101'
 
 for filename in os.listdir(path):
     print filename
