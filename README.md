@@ -1,7 +1,7 @@
 NewsName-Match
 ==============
 
-A tool for finding variations of names in news OCR'ed news articles
+A tool for finding variations of person names in OCR'ed news articles
 
 About
 -----
@@ -16,17 +16,21 @@ This dataset contains OCR text extracted from the front page of newspapers in 19
 Goal
 ----
 
-The problem with these news article files is that there is no way to identify variations of particular names.  In this case, primary candidates from the 1916 election are being used.
+The problem with these newspaper text files is that a person can be mentioned in a variety of ways in an article other than by using their full name.
 
-The goal of this project is to provide a method in which to identify the occurrence of these candidates within a particular newspaper from a particular date, as well as how frequently these names appear.
+The goal of this project is first, to create a method to identify all variations of a person's name that can be used and to create a map of those variations that can be used to perform further analytics such as how frequently a person's name appears per article/newspaper.
+
+The goal of this project is the create a method of identifying mentions of a person's name, regardless of how they are mentioned.  This can then be used to perform further analytics such as how frequently a person's name appears per article/newspaper.
 
 Approach
 --------
 
-The first approach to solving this problem is to find variations of the defined candidate names within the text files and map them to the canonical name.  By performing this task, this map can be used to identify the frequency in which these variations appear in each newspaper.  This is performed by using the NLTK library which tokenizes sentences and separates them into parts of speech.  For example:
+The approach to solving this problem involves the use of a couple different libraries.  First, NLTK is used to tokenize sentences in each file and separate them into parts of speech.  Below is a diagram of the NLTK approach:
 
 ![NLTK Approach](/docs/ie-architecture.png)
 
+By identifying all the person mentions in the files, you can then compare that to a canonical list of persons you are interested in(in this case it is presidential candidates from the 1916 election) to create a map.  For instance, Woodrow Wilson could be mapped to a number of variants used to describe him:
+
 ```
-Woodrow Wilson -> President Wilson
+"Woodrow Wilson" -> ["President Wilson","W. Wilson", "Woodrow"]
 ```
