@@ -27,3 +27,5 @@ The first approach to solving this problem is to find variations of the defined 
 ```
 Woodrow Wilson
 ```
+
+![Alt text](/docs/ie-architecture.png?raw=true "NLTK Flow")
