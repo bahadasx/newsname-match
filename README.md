@@ -24,8 +24,9 @@ Approach
 --------
 
 The first approach to solving this problem is to find variations of the defined candidate names within the text files and map them to the canonical name.  By performing this task, this map can be used to identify the frequency in which these variations appear in each newspaper.  This is performed by using the NLTK library which tokenizes sentences and separates them into parts of speech.  For example:
+
+![alt tag](https://raw.githubusercontent.com/bahadasx/docs/ie-architecture.png)
+
 ```
 Woodrow Wilson
 ```
-
-![Alt text](/docs/ie-architecture.png?raw=true "NLTK Flow")
