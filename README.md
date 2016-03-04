@@ -3,6 +3,8 @@ NewsName-Match
 
 ![Newspaper Image](https://upload.wikimedia.org/wikipedia/commons/8/84/The_San_Francisco_Call_newspaper_front_page%2C_thursday%2C_feb_8_1906%2C_featuring_Thomas_B._Bishop_closer_crop.png)
 
+By [Mercurywoodrose](https://commons.wikimedia.org/wiki/User:Mercurywoodrose) , via Wikimedia Commons
+
 A tool for finding variations of person names in OCR'ed news articles
 
 About
