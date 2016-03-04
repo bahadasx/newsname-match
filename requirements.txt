@@ -1,0 +1,6 @@
+# Distance
+fuzzywuzzy==0.8.2
+python-Levenshtein==0.12.0
+
+# Language Processing
+nltk==3.1
