@@ -5,12 +5,11 @@ NewsName-Match
 
 By [Mercurywoodrose](https://commons.wikimedia.org/wiki/User:Mercurywoodrose) , via Wikimedia Commons
 
-A tool for finding variations of person names in OCR'ed news articles
 
 About
 -----
 
-This project is part of the District Data Research Labs on Entity Resolution
+A tool for finding variations of person names in OCR'ed news articles.  This project is part of the District Data Research Labs on Entity Resolution
 
 Data
 ----
